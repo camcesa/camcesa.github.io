@@ -1,0 +1,98 @@
+
+body {
+  background: url('../images/buttermilk-background.jpg'); /*set background image*/
+  font-family: 'Open Sans', arial, sans-serif;
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+  font-size: 2rem;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+html{
+	font-size:100%;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: blue;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.buttermilk{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width:600px;
+	text-align:center;
+}
+
+.chalkbag{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:6.25rem;
+	text-align:center;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+  text-align:center;
+  padding: 0.3125rem;
+  margin-right:0.3125rem;
+  margin-left:0.3125rem; 
+}
+
+.phantom{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:6.25rem;
+	text-align:center;
+}
+
+.container{
+	width:600px;
+	margin: 100px auto;
+	background: #FFF;
+}
+
+aside.left{
+  float:left;
+}
+aside.right{
+  float:right;
+}
+
+p.footer{
+	background:none;
+	color: white;
+
+}
+
+p{
+	text-align:center;
+	font-size: 1rem;
+}
+
+section:nth-child(odd){
+	background: lightgrey;
+}
